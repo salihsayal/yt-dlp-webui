@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#videoUrl {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+#status {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
